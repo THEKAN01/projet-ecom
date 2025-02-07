@@ -2,12 +2,9 @@ import React from 'react';
 import { Product } from '../types/Product';
 import { ProductCard } from './ProductCard';
 
-interface FeaturedProductsProps {
-  products: Product[];
-  onAddToCart: (product: Product) => void;
-}
 
-export const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ products, onAddToCart }) => {
+
+export const FeaturedProducts = ({ products, onAddToCart }) => {
   return (
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

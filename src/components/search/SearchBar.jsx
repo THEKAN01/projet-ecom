@@ -1,13 +1,7 @@
 import React from 'react';
 
-interface SearchBarProps {
-  searchTerm: string;
-  onSearch: (term: string) => void;
-  suggestions: string[];
-  onSelectSuggestion: (suggestion: string) => void;
-}
 
-export const SearchBar: React.FC<SearchBarProps> = ({
+export const SearchBar = ({
   searchTerm,
   onSearch,
   suggestions,

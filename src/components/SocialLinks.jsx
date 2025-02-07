@@ -1,13 +1,8 @@
 import React from 'react';
 import { FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
-interface SocialLink {
-  name: string;
-  url: string;
-  icon: React.ReactNode;
-}
 
-const socialLinks: SocialLink[] = [
+const socialLinks = [
   { 
     name: 'Facebook', 
     url: 'https://www.facebook.com/share/18MZyV9xak/', 
@@ -25,7 +20,7 @@ const socialLinks: SocialLink[] = [
   }
 ];
 
-export const SocialLinks: React.FC = () => {
+export const SocialLinks = () => {
   return (
     <div className="flex space-x-6 items-center">
       {socialLinks.map((link) => (

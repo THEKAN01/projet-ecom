@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-export const Newsletter: React.FC = () => {
+export const Newsletter = () => {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Ici, vous ajouteriez la logique pour enregistrer l'email
     setSubscribed(true);

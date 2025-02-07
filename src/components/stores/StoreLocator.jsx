@@ -1,13 +1,7 @@
 import React from 'react';
 import { Store } from '../../types/Store';
 
-interface StoreLocatorProps {
-  stores: Store[];
-  onSelectStore: (store: Store) => void;
-  selectedStore: Store | null;
-}
-
-export const StoreLocator: React.FC<StoreLocatorProps> = ({
+export const StoreLocator = ({
   stores,
   onSelectStore,
   selectedStore

@@ -2,14 +2,8 @@ import React from 'react';
 import { CartItem } from '../../types/CartItem';
 import { FaWhatsapp, FaFacebookMessenger, FaInstagram } from 'react-icons/fa';
 
-interface SocialShareProps {
-  isOpen: boolean;
-  onClose: () => void;
-  cartItems: CartItem[];
-  total: number;
-}
 
-export const SocialShare: React.FC<SocialShareProps> = ({
+export const SocialShare= ({
   isOpen,
   onClose,
   cartItems,
@@ -24,7 +18,7 @@ export const SocialShare: React.FC<SocialShareProps> = ({
     return encodeURIComponent(message);
   };
 
-  const handleShare = (platform: string) => {
+  const handleShare = (platform) => {
     const message = generateMessage();
     let url = '';
 

@@ -2,16 +2,9 @@ import React from 'react';
 import { CartItem } from '../../types/CartItem';
 import { SocialShare } from '../social/SocialShare';
 
-interface CartDrawerProps {
-  isOpen: boolean;
-  onClose: () => void;
-  cartItems: CartItem[];
-  onUpdateQuantity: (productId: number, quantity: number) => void;
-  onRemove: (productId: number) => void;
-  total: number;
-}
 
-export const CartDrawer: React.FC<CartDrawerProps> = ({
+
+export const CartDrawer = ({
   isOpen,
   onClose,
   cartItems,

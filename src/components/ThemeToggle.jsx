@@ -2,7 +2,7 @@ import React from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import { useTheme } from '../contexts/ThemeContext';
 
-export const ThemeToggle: React.FC = () => {
+export const ThemeToggle = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (

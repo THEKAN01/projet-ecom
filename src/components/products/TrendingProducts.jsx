@@ -2,12 +2,8 @@ import React from 'react';
 import { Product } from '../../types/Product';
 import { ProductCard } from './ProductCard';
 
-interface TrendingProductsProps {
-  products: Product[];
-  onAddToCart: (product: Product) => void;
-}
 
-export const TrendingProducts: React.FC<TrendingProductsProps> = ({
+export const TrendingProducts = ({
   products,
   onAddToCart
 }) => {

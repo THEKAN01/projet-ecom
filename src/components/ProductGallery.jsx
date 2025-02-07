@@ -2,21 +2,17 @@ import React, { useState } from 'react';
 import { Product } from '../types/Product';
 import { useProductFilter } from '../hooks/useProductFilter';
 
-interface ProductGalleryProps {
-  products: Product[];
-  onAddToCart: (product: Product) => void;
-}
 
-export const ProductGallery: React.FC<ProductGalleryProps> = ({ products, onAddToCart }) => {
+export const ProductGallery = ({ products, onAddToCart }) => {
   const [zoomedImage, setZoomedImage] = useState<string | null>(null);
   const { filteredProducts, selectedCategory, setSelectedCategory } = useProductFilter(products);
   
   const categories = Array.from(new Set(products.map(p => p.category)));
 
-  const handleMouseEnter = (imageSrc: string) => setZoomedImage(imageSrc);
+  const handleMouseEnter = (imageSrc) => setZoomedImage(imageSrc);
   const handleMouseLeave = () => setZoomedImage(null);
 
-  const formatPrice = (price: number) => {
+  const formatPrice = (price) => {
     return price.toLocaleString('fr-FR') + ' FCFA';
   };
 

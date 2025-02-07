@@ -1,11 +1,6 @@
 import React from 'react';
 
-interface CartIconProps {
-  count: number;
-  onClick: () => void;
-}
-
-export const CartIcon: React.FC<CartIconProps> = ({ count, onClick }) => {
+export const CartIcon = ({ count, onClick }) => {
   return (
     <div className="relative">
       <div 

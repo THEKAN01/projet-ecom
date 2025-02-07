@@ -1,11 +1,8 @@
 import React from 'react';
 import { Tool } from '../types/Tool';
 
-interface ToolCardProps {
-  tool: Tool;
-}
 
-export const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
+export const ToolCard = ({ tool }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-6 mb-4">
       <h2 className="text-2xl font-bold mb-2">{tool.name}</h2>

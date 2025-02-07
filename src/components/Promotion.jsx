@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Promotion: React.FC = () => {
+export const Promotion = () => {
   return (
     <section className="bg-indigo-600 text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

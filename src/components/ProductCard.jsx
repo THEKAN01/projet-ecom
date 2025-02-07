@@ -1,13 +1,8 @@
 import React from 'react';
 import { Product } from '../types/Product';
 
-interface ProductCardProps {
-  product: Product;
-  onAddToCart: (product: Product) => void;
-}
-
-export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
-  const formatPrice = (price: number) => {
+export const ProductCard= ({ product, onAddToCart }) => {
+  const formatPrice = (price) => {
     return price.toLocaleString('fr-FR') + ' FCFA';
   };
 
