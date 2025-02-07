@@ -18,7 +18,7 @@ export const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img src="/images/logo.png" alt="Pegazus Services" className="h-12" />
+            <img src="./logo.png" alt="Pegazus Services" className="h-12" />
             <span className="ml-3 text-xl font-bold text-gray-800 dark:text-white">
               Pegazus Services
             </span>
