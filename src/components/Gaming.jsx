@@ -6,15 +6,15 @@ export const Gaming = () => {
   const products = [
     {
       name: 'PlayStation 5',
-      image: '/images/gaming/ps5.jpg', // TODO: Ajouter l'image de la PS5
+      image: './images/gaming/ps5.jpg', // TODO: Ajouter l'image de la PS5
     },
     {
       name: 'PlayStation 4 - Edition 1',
-      image: '/images/gaming/ps4-1.jpg', // TODO: Ajouter la première image de PS4
+      image: './images/gaming/ps4-1.jpg', // TODO: Ajouter la première image de PS4
     },
     {
       name: 'PlayStation 4 - Edition 2',
-      image: '/images/gaming/ps4-2.jpg', // TODO: Ajouter la deuxième image de PS4
+      image: './images/gaming/ps4-2.jpg', // TODO: Ajouter la deuxième image de PS4
     },
   ];
 

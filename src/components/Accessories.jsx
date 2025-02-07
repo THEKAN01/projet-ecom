@@ -6,15 +6,15 @@ export const Accessories = () => {
   const accessories = [
     {
       name: 'Écouteurs Sans Fil',
-      image: '/images/accessories/earbuds.jpg', // TODO: Ajouter l'image des écouteurs
+      image: './images/accessories/earbuds.jpg', // TODO: Ajouter l'image des écouteurs
     },
     {
       name: 'Casque Audio',
-      image: '/images/accessories/headphones.jpg', // TODO: Ajouter l'image du casque
+      image: './images/accessories/headphones.jpg', // TODO: Ajouter l'image du casque
     },
     {
       name: 'Montre Connectée',
-      image: '/images/accessories/smartwatch.jpg', // TODO: Ajouter l'image de la montre
+      image: './images/accessories/smartwatch.jpg', // TODO: Ajouter l'image de la montre
     },
   ];
 

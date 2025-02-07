@@ -6,17 +6,17 @@ export const Computers = () => {
   const products = [
     {
       name: 'iPhone',
-      image: '/images/phones/iphone.jpg', // TODO: Ajouter l'image iPhone
+      image: './images/phones/iphone.jpg', // TODO: Ajouter l'image iPhone
       specs: 'iPhone Series',
     },
     {
       name: 'Google Pixel',
-      image: '/images/phones/pixel.jpg', // TODO: Ajouter l'image Google Pixel
+      image: './images/phones/pixel.jpg', // TODO: Ajouter l'image Google Pixel
       specs: 'Google Pixel Series',
     },
     {
       name: 'Samsung',
-      image: '/images/phones/samsung.jpg', // TODO: Ajouter l'image Samsung
+      image: './images/phones/samsung.jpg', // TODO: Ajouter l'image Samsung
       specs: 'Samsung Series',
     },
   ];

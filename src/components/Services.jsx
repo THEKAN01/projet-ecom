@@ -7,17 +7,17 @@ export const Services = () => {
     {
       title: 'Customisation PC',
       description: 'Personnalisez votre setup gaming avec nos services sur mesure',
-      image: '/images/services/custom-pc.jpg', // TODO: Ajouter l'image de customisation PC (toute résolution acceptée)
+      image: './images/services/custom-pc.jpg', // TODO: Ajouter l'image de customisation PC (toute résolution acceptée)
     },
     {
       title: 'Customisation Pochette 1',
       description: 'Donnez un style unique à votre téléphone',
-      image: '/images/services/phone-case1.jpg', // TODO: Ajouter l'image de la première pochette (toute résolution acceptée)
+      image: './images/services/phone-case1.jpg', // TODO: Ajouter l'image de la première pochette (toute résolution acceptée)
     },
     {
       title: 'Customisation Pochette 2',
       description: 'Personnalisez la protection de votre smartphone',
-      image: '/images/services/phone-case2.jpg', // TODO: Ajouter l'image de la deuxième pochette (toute résolution acceptée)
+      image: './images/services/phone-case2.jpg', // TODO: Ajouter l'image de la deuxième pochette (toute résolution acceptée)
     },
   ];
 

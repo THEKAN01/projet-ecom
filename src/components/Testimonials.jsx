@@ -5,18 +5,18 @@ export const Testimonials = () => {
   const testimonials = [
     {
       content: 'Les écouteurs sans fil que j\'ai achetés sont d\'une qualité exceptionnelle. Le service client a été très professionnel et m\'a parfaitement conseillé !',
-      image: '/images/testimonials/client1.jpg', // TODO: Ajouter l'image du premier client (toute résolution acceptée)
-      video: '/videos/video1.mp4', // TODO: Ajouter la première vidéo de témoignage (tout format MP4 accepté)
+      image: './images/testimonials/client1.jpg', // TODO: Ajouter l'image du premier client (toute résolution acceptée)
+      video: './videos/video1.mp4', // TODO: Ajouter la première vidéo de témoignage (tout format MP4 accepté)
     },
     {
       content: 'La customisation de mon PC est juste incroyable. L\'équipe a su parfaitement répondre à mes attentes et le résultat est au-delà de mes espérances !',
-      image: '/images/testimonials/client2.jpg', // TODO: Ajouter l'image du deuxième client (toute résolution acceptée)
-      video: '/videos/video2.mp4', // TODO: Ajouter la deuxième vidéo de témoignage (tout format MP4 accepté)
+      image: './images/testimonials/client2.jpg', // TODO: Ajouter l'image du deuxième client (toute résolution acceptée)
+      video: './videos/video2.mp4', // TODO: Ajouter la deuxième vidéo de témoignage (tout format MP4 accepté)
     },
     {
       content: 'La customisation de la pochette de mon téléphone est magnifique. Un travail de qualité qui rend mon téléphone vraiment unique !',
-      image: '/images/testimonials/client3.jpg', // TODO: Ajouter l'image du troisième client (toute résolution acceptée)
-      video: '/videos/video3.mp4', // TODO: Ajouter la troisième vidéo de témoignage (tout format MP4 accepté)
+      image: './images/testimonials/client3.jpg', // TODO: Ajouter l'image du troisième client (toute résolution acceptée)
+      video: './videos/video3.mp4', // TODO: Ajouter la troisième vidéo de témoignage (tout format MP4 accepté)
     },
   ];
 
