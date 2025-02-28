@@ -64,7 +64,7 @@ export const Services = () => {
                     className="flex items-center justify-center space-x-2 bg-green-500 text-white px-4 py-3 rounded-lg hover:bg-green-600 transition-colors text-lg font-medium"
                   >
                     <FaWhatsapp size={24} />
-                    <span>Commander sur WhatsApp</span>
+                    <span>Catalogue</span>
                   </a>
                   <a
                     href="https://www.facebook.com/share/18MZyV9xak/"
