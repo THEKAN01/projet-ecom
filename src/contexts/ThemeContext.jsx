@@ -1,25 +1,28 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-// Au lieu de type, tu peux simplement utiliser une chaîne de caractères
-const ThemeContext = createContext({
-  theme: 'light', // Valeur par défaut
-  toggleTheme: () => {}, // Fonction par défaut
-});
+// Création du contexte du thème
+const ThemeContext = createContext();
+
+// Hook personnalisé pour utiliser le contexte du thème
+export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
+  // Vérifier si un thème est déjà stocké dans localStorage
+  const storedTheme = localStorage.getItem('theme') || 'light';
 
+  // État pour stocker le thème actuel
+  const [theme, setTheme] = useState(storedTheme);
+
+  // Mettre à jour la classe du <html> et localStorage lorsque le thème change
   useEffect(() => {
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme) {
-      setTheme(storedTheme);
-    }
-  }, []);
+    document.documentElement.classList.remove('light', 'dark');
+    document.documentElement.classList.add(theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
+  // Fonction pour basculer entre le mode clair et sombre
   const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
+    setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
   return (
@@ -27,12 +30,4 @@ export const ThemeProvider = ({ children }) => {
       {children}
     </ThemeContext.Provider>
   );
-};
-
-export const useTheme = () => {
-  const context = useContext(ThemeContext);
-  if (!context) {
-    throw new Error('useTheme must be used within a ThemeProvider');
-  }
-  return context;
 };

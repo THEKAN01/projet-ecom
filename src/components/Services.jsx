@@ -5,19 +5,19 @@ import { FaWhatsapp, FaFacebookF, FaInstagram } from 'react-icons/fa';
 export const Services = () => {
   const services = [
     {
-      title: 'PS-Customisation PC',
+      title: 'Customisation PC',
       description: 'Personnalisez votre setup gaming avec nos services sur mesure',
       image: './images/services/custo_pc.jpg',
       whatsappLink: 'https://wa.me/p/24399411629704664/237679956338',
     },
     {
-      title: 'PS-Customisation Pochette',
+      title: 'Customisation Pochette',
       description: 'Donnez un style unique à votre téléphone',
       image: './images/services/custo1.jpg',
       whatsappLink: 'https://wa.me/p/6852820414802154/237679956338',
     },
     {
-      title: 'PS-Customisation Bijoux',
+      title: 'Customisation Bijoux',
       description: 'Personnalisez vos bijoux avec notre expertise',
       image: './images/services/bijoux.jpg',
       whatsappLink: 'https://wa.me/p/7719582821437604/237679956338',

@@ -5,34 +5,40 @@ import { FaWhatsapp, FaFacebookF, FaInstagram } from 'react-icons/fa';
 export const Computers = () => {
   const products = [
     {
-      name: 'PS-PC Gamer',
+      name: 'PC Gamer',
       image: '/images/computers/gamer.jpg',
       specs: 'Gaming PC Series',
       whatsappLink: 'https://wa.me/p/7131862923545040/237679956338',
     },
     {
-      name: 'PS-PC',
+      name: 'PC',
       image: './images/computers/simplepc.jpg',
       specs: 'Desktop PC Series',
       whatsappLink: 'https://wa.me/p/6842985669131208/237679956338',
     },
     {
-      name: 'PS-Samsung',
+      name: 'Samsung',
       image: './images/phones/samsung.jpg',
       specs: 'Samsung Series',
       whatsappLink: 'https://wa.me/p/9385415108171636/237679956338',
     },
     {
-      name: 'PS-iPhone',
+      name: 'iPhone',
       image: './images/phones/iphone.jpg',
       specs: 'iPhone Series',
       whatsappLink: 'https://wa.me/p/7545280648850399/237679956338',
     },
     {
-      name: 'PS-Google Pixel',
+      name: 'Google Pixel',
       image: './images/phones/pixel.jpg',
       specs: 'Google Pixel Series',
       whatsappLink: 'https://wa.me/p/7279396042153900/237679956338',
+    },
+    {
+      name: 'Android Smartphone',
+      image: './images/phones/android.jpg',
+      specs: 'Android Smartphone Series',
+      whatsappLink: 'https://wa.me/p/8892379300861751/237679956338',
     },
   ];
 

@@ -5,17 +5,17 @@ import { FaWhatsapp, FaFacebookF, FaInstagram } from 'react-icons/fa';
 export const Gaming = () => {
   const products = [
     {
-      name: 'PS-PlayStation 5',
+      name: 'PlayStation 5',
       image: './images/gaming/ps5.jpg',
       whatsappLink: 'https://wa.me/p/7196117923758787/237679956338',
     },
     {
-      name: 'PS-PlayStation 4',
+      name: 'PlayStation 4',
       image: './images/gaming/ps4.jpg',
       whatsappLink: 'https://wa.me/p/7196117923758787/237679956338',
     },
     {
-      name: 'PS-Videogames',
+      name: 'Videogames',
       image: './images/gaming/videogames.jpg',
       whatsappLink: 'https://wa.me/p/6922827987823861/237679956338',
     },

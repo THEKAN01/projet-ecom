@@ -5,22 +5,22 @@ import { FaWhatsapp, FaFacebookF, FaInstagram } from 'react-icons/fa';
 export const Accessories = () => {
   const accessories = [
     {
-      name: "PS-Pochettes d'écouteurs sans fil",
+      name: "Pochettes d'écouteurs sans fil",
       image: './images/accessories/pochette_airpods.jpg',
       whatsappLink: 'https://wa.me/p/6897017710413641/237679956338',
     },
     {
-      name: 'PS-Casque Audio',
+      name: 'Casque Audio',
       image: './images/accessories/casque.jpg',
       whatsappLink: 'https://wa.me/p/7493971677281006/237679956338',
     },
     {
-      name: 'PS-Montre Connectée',
+      name: 'Montre Connectée',
       image: './images/accessories/smartwatch.jpg',
       whatsappLink: 'https://wa.me/p/6788258377923788/237679956338',
     },
     {
-      name: 'PS-Pochette iPhone',
+      name: 'Pochette iPhone',
       image: './images/accessories/pochette_iphone.jpg',
       whatsappLink: 'https://wa.me/p/7000793256664363/237679956338',
     },
