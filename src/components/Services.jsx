@@ -33,7 +33,7 @@ export const Services = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold text-center mb-12"
         >
-          PS-Nos Services de Customisation
+          PS-Customisation
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

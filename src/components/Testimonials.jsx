@@ -55,11 +55,7 @@ export const Testimonials = () => {
               </div>
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 mr-4">
-                  <img
-                    src={testimonial.image}
-                    alt="Client"
-                    className="w-full h-full object-cover"
-                  />
+                  
                 </div>
                 <p className="text-gray-600">{testimonial.content}</p>
               </div>
