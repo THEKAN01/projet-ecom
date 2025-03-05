@@ -9,7 +9,7 @@ export const Contact = () => {
     {
       name: 'WhatsApp',
       icon: <FaWhatsapp size={20} />,
-      url: 'https://wa.me/237679956338',
+      url: 'https://wa.me/c/237679956338',
       color: 'bg-green-500 hover:bg-green-600'
     },
     {

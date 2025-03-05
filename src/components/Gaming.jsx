@@ -19,6 +19,11 @@ export const Gaming = () => {
       image: './images/gaming/videogames.jpg',
       whatsappLink: 'https://wa.me/p/6922827987823861/237679956338',
     },
+    {
+      name: 'Xbox Series ',
+      image: './images/gaming/xbox.jpg',
+      whatsappLink: 'https://wa.me/p/9341097659339719/237679956338',
+    },
   ];
 
   return (
