@@ -6,7 +6,7 @@ export const Services = () => {
   const services = [
     {
       title: 'Customisation PC',
-      description: 'Personnalisez votre setup gaming avec nos services sur mesure',
+      description: 'Personnalisez vos ordinateurs avec nos services sur mesure',
       image: './images/services/custo_pc.jpg',
       whatsappLink: 'https://wa.me/p/24399411629704664/237679956338',
     },
